@@ -157,8 +157,6 @@ next 数组
 
 　　应用摊还分析，不难证明构建 next 数组的时间复杂度是 O(m) 的。至此，我们以 O(n+m) 的时间复杂度，实现了构建 next 数组、利用 next 数组进行字符串匹配。  
 　　以上就是 KMP 算法。它于 1977 年被提出，全称 Knuth–Morris–Pratt 算法。让我们记住前辈们的名字：[Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)(K), [James H. Morris](https://en.wikipedia.org/wiki/James_H._Morris)(M), [Vaughan Pratt](https://en.wikipedia.org/wiki/Vaughan_Pratt)(P).  
-　　希望本文对你有帮助。 本文在我博客的 url 是 [https://ruanx.pw/kmp/](https://ruanx.pw/kmp/) , 以后可能会更新。
-
 * * *
 
   
@@ -250,17 +248,6 @@ void getNext(char * p, int * next)
 
 =====================
 
-本文介绍的算法已经收录到新书：
-
-[《自己动手写 Python 虚拟机 海纳 书》【摘要 书评 试读】- 京东图书​item.jd.com![](https://pic3.zhimg.com/v2-41873bc8ddddebe01ff83191b159c9b1_180x120.jpg)](https://item.jd.com/50300260700.html)
-
-关于这本书的更多介绍：
-
-[海纳：介绍一本好书 :)​zhuanlan.zhihu.com![](https://zhstatic.zhihu.com/assets/zhihu/editor/zhihu-card-default.svg)](https://zhuanlan.zhihu.com/p/70279362)
-
-也欢迎大家关注专栏
-
-![](https://pic2.zhimg.com/v2-eca9a8eb86cb73d71bedcfdbf99d7afd_xs.jpg?source=1940ef5c)灵茶山艾府
 
 角色：
 
